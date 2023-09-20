@@ -1,0 +1,303 @@
+
+//(1)
+//
+//import java.util.*;
+//public class Main {
+//    public static void main(String[] args) {
+//
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("enter the size");
+//        int size = sc.nextInt();
+//        int []a  = new int[size];
+//        int sum=0;
+//        for(int i=0; i<a.length; i++)
+//        {
+//            System.out.println("enter the number");
+//            a[i]=sc.nextInt();
+//        }
+//        for(int j=0; j<a.length; j++)
+//        {
+//           sum+=a[j];
+//        }
+//        System.out.println("sum of the array =  "+sum);
+//
+//    }
+//}
+
+//
+//import java.util.*;
+////
+// public  class Main {
+//public static void main(String[]args){
+//        {
+//            Scanner sc = new Scanner(System.in);
+//            System.out.println("enter the size = ");
+//            int size= sc.nextInt();
+//            int []a =new int[size];
+//            int sum=0;
+//            for(int i=0; i<size; i++)
+//            {
+//                System.out.println("enter the number");
+//                a[i]=sc.nextInt();
+//                sum=sum+a[i];
+//            }
+//            System.out.println("the average of elements = "+ sum/size);
+//        }
+//        }
+//        }
+
+//(2)
+
+//
+//public class Main {
+//    public static void main(String[] args) {
+//
+//        String [] country ={"India","Japan","Korea","Srilanka"};
+//        int arrlength =country.length;
+//        System.out.println("The siz of the array is  = "+arrlength);
+//    }
+//}
+
+
+//(3)
+
+//import java.util.*;
+//public class Main {
+//    public static void main(String[] args) {
+//
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("enter the size");
+//        int size =sc.nextInt();
+//        int []a  = new int[size];
+//        int sum=0;
+//        int add=0;
+//        int net_sum=add+sum;
+//        for(int i=0; i<a.length ; i++)
+//        {
+//            System.out.println("enter the first array");
+//            a[i]=sc.nextInt();
+//            sum+=a[i];
+//        }
+//
+//        for(int k=0; k<a.length; k++)
+//        {
+//            System.out.println("enter the second array ");
+//
+//           a[k]=sc.nextInt();
+//           add+=a[k];
+//        }
+//        int b=add+sum;
+//        System.out.println("The sum of first and second array = "+b);
+//
+//    }
+//}
+//
+
+
+//(3)
+
+//import java.util.*;
+//
+//public class Main {
+//    public static void main(String[] args) {
+//
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("enter the size = ");
+//        int size = sc.nextInt();
+//        int[] a = new int[size];
+//        System.out.println("enter the value to be checked =");
+//        int b= sc.nextInt();
+//        // user inpit
+//        for (int i = 0; i < size; i++) {
+//            System.out.println("enter the number ");
+//            a[i] = sc.nextInt();
+//            if(a[i]==b)
+//            {
+//                System.out.println("This number is present = "+a[i]);
+//
+//            }
+//            else
+//            {
+//                System.out.println("not found");
+//            }
+//
+//        }
+//    }
+//}
+
+// odd number and even number
+
+//import java.util.*;
+//
+//public class Main {
+//    public static void main(String[] args) {
+//
+//Scanner sc = new Scanner(System.in);
+//        System.out.println("enter the size");
+//        int size = sc.nextInt();
+//        int a[] =new int[size];
+//
+//        for(int j=0; j<size; j++)
+//        {
+//            a[j]=sc.nextInt();
+//            if(a[j]%2!=0)
+//            {
+//                System.out.println("odd numbers = "+a[j]);
+//            }
+//            else
+//            {
+//                System.out.println("even number = "+a[j]);
+//            }
+//        }
+//
+//
+//    }
+//}
+
+// take 10 input from user and check the element in the array
+
+//import java.util.*;
+//public class Main {
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("enter 10 elements in the array = ");
+//        int size = sc.nextInt();
+//        int a[] = new int[size];
+//
+//        for (int i = 0; i < size; i++) {
+//            System.out.println("emter the number");
+//            a[i] = sc.nextInt();
+//        }
+//        for(int i=0; i<size; i++)
+//        {
+//            System.out.println(a[i]);
+//
+//        }
+//
+//    }
+//}
+
+
+
+//find the elements of one array present in the another array
+
+//  import java.util.*;
+//
+//public class Main {
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner (System.in);
+//        int size= sc.nextInt();
+//        int a[] = new int[size];
+//
+//        for(int i=0; i<a.length; i++)
+//        {
+//            System.out.println("emter the number");
+//            a[i]=sc.nextInt();
+//        }
+//        for(int j=0; j<a.length; j++)
+//        {
+//            System.out.println("enter the number to be checked = ");
+//            a[j]=sc.nextInt();
+//            if(a[i]==a[j])
+//
+//        }
+//        for (int i=0; i<size; i++)
+//        {
+//            if(a[i]==a[j])
+//            {
+//
+//            }
+//        }
+//
+//
+//
+//    }
+//}
+
+
+
+//(5)
+
+
+//  import java.util.*;
+//
+//public class Main {
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//        int size = sc.nextInt();
+//        int a[] = new int[size];
+//
+//        for (int i = 1; i <a.length; )
+//        {
+//            a[i]=sc.nextInt();
+//            for (int j = 1; j < a.length; j++)
+//            {
+//                 int b=i*j;
+//                System.out.println("multiplication table "+b);
+//            }
+//            System.out.println();
+//            i++;
+//        }
+//    }
+//}
+
+
+// find maximum number in the array
+//
+//import java.util.*;
+//public class Main {
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//        int size = sc.nextInt();
+//        int a[] = new int[size];
+//        int max=;0
+//        for (int i = 0; i < a.length; i++) {
+//            a[i] = sc.nextInt();
+//        }
+//        for (int j = 0; j < size; j++) {
+//            if (a[i] > max)//1 >0
+//            {
+//                max=a[i]//max=1 a
+//                System.out.println();
+//            }
+//max
+//        }
+//    }
+//}
+
+
+/// positive and negative , odd and even numbers
+
+//import java.util. *;
+//        public class Main {
+//            public static void main(String[] args) {
+//                Scanner sc = new Scanner(System.in);
+//                System.out.println("enter 10 elements in the array = ");
+//                int size = sc.nextInt();
+//                int a[] = new int[size];
+//
+//                for (int i = 0; i < a.length; i++) {
+//                    System.out.println("emter the number");
+//                    a[i] = sc.nextInt();
+//                }
+//                for (int i = 0; i < a.length; i++)
+//                {
+//                    if (a[i] > 0) {
+//                        System.out.println(" positive number " + a[i]);
+//                    }
+//                    if (a[i] < 0)
+//                    {
+//                        System.out.println("negative number = " + a[i]);
+//                    }
+//                    if (a[i] % 2 == 0)
+//                    {
+//                        System.out.println("odd number " + a[i]);
+//
+//                    }
+//                    if (a[i] % 2 != 0) {
+//                        System.out.println("even number = " + a[i]);
+//                    }
+//
+//                }
+//            }
+//        }
